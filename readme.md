@@ -59,7 +59,7 @@ You can use the Graph and REST APIs without an OAuth access token, but the real 
     @oauth = Koala::Facebook::OAuth.new(app_id, code, callback_url)
 
 If your application uses Koala and the Facebook [JavaScript SDK](http://github.com/facebook/connect-js) (formerly Facebook Connect), you can use the OAuth class to parse the cookies:
-    @oauth.get_user_from_cookie(cookies)
+    @oauth.get_user_info_from_cookie(cookies)
 
 And if you have to use the more complicated [redirect-based OAuth process](http://developers.facebook.com/docs/authentication/), Koala helps out there, too:
 	  # generate authenticating URL

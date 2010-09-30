@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{koala}
+  s.name = %q{palidanx-koala}
   s.version = "0.9.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = %q{alex@alexkoppel.com}
   s.extra_rdoc_files = ["CHANGELOG", "LICENSE", "lib/koala.rb", "lib/koala/graph_api.rb", "lib/koala/http_services.rb", "lib/koala/realtime_updates.rb", "lib/koala/rest_api.rb"]
   s.files = ["CHANGELOG", "LICENSE", "Manifest", "Rakefile", "init.rb", "koala.gemspec", "lib/koala.rb", "lib/koala/graph_api.rb", "lib/koala/http_services.rb", "lib/koala/realtime_updates.rb", "lib/koala/rest_api.rb", "readme.md", "spec/facebook_data.yml", "spec/koala/api_base_tests.rb", "spec/koala/graph_and_rest_api/graph_and_rest_api_no_token_tests.rb", "spec/koala/graph_and_rest_api/graph_and_rest_api_with_token_tests.rb", "spec/koala/graph_api/graph_api_no_access_token_tests.rb", "spec/koala/graph_api/graph_api_with_access_token_tests.rb", "spec/koala/live_testing_data_helper.rb", "spec/koala/net_http_service_tests.rb", "spec/koala/oauth/oauth_tests.rb", "spec/koala/realtime_updates/realtime_updates_tests.rb", "spec/koala/rest_api/rest_api_no_access_token_tests.rb", "spec/koala/rest_api/rest_api_with_access_token_tests.rb", "spec/koala_spec.rb", "spec/koala_spec_helper.rb", "spec/koala_spec_without_mocks.rb", "spec/mock_facebook_responses.yml", "spec/mock_http_service.rb"]
-  s.homepage = %q{http://github.com/arsduo/koala}
+  s.homepage = %q{http://github.com/palidanx/koala}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Koala", "--main", "readme.md"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{koala}
